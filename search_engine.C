@@ -7,7 +7,7 @@ char search_terms[100][1024];     // 검색어 저장
 int search_term_count[100] = {0}; // 해당 검색어 검색 횟수
 int distinct_search_terms = 0;    // 검색된 다른 검색어 수
 
-//검색
+// 글 쓰기
 void write_post() {
   if (post_count >= 100) {
     printf("글자 수 초과.\n");
