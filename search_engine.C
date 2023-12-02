@@ -20,6 +20,7 @@ void write_post() {
   printf("글이 성공적으로 작성되었습니다.\n");
 }
 
+// 검색
 void search_posts() {
   char search_term[1024]; // 검색어
   int exists = 0;         // 해당 검색어가 존재하는지
@@ -137,6 +138,7 @@ void view_main_screen() {
   printf("\n");
 }
 
+//입력
 int main(void) {
   int choice;
   while (1) {
