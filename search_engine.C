@@ -48,7 +48,6 @@ void search_posts() {
   }
   printf("\n");
 }
-
 // 글 삭제
 void delete_posts() {
   char delete_term[1024]; // 삭제할 글
@@ -133,7 +132,6 @@ void view_main_screen() {
   printf("\n");
 }
 
-// 입력
 int main(void) {
   int choice;
   while (1) {
