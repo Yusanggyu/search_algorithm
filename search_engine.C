@@ -24,7 +24,7 @@ void search_posts() {
   printf("검색할 단어를 입력하세요: ");
   scanf("%s", search_term);
 
-  // Check if search term exists and increment the count
+  // 글에 있을 때
   for (int i = 0; i < distinct_search_terms; i++) {
     if (strcmp(search_terms[i], search_term) == 0) {
       search_term_count[i]++;
